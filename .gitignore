@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+
+# SQLite database + WAL files (generated at runtime by the server)
+server/data.sqlite
+server/data.sqlite-shm
+server/data.sqlite-wal
+
+# Logs and editor cruft
+*.log
+.DS_Store
+.vscode/
